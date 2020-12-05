@@ -536,7 +536,7 @@ pre code {
 }
 
 .pre-scrollable {
-  max-height: 340px;
+  max-width: 340px;
   overflow-y: scroll;
 }
 
@@ -2544,14 +2544,14 @@ fieldset:disabled a.btn {
 
 .btn-primary {
   color: #fff;
-  background-color: #007bff;
-  border-color: #007bff;
+  background-color: #92130a;
+  border-color: #92130a;
 }
 
 .btn-primary:hover {
   color: #fff;
-  background-color: #0069d9;
-  border-color: #0062cc;
+  background-color: #680c06;
+  border-color: #680c06;
 }
 
 .btn-primary:focus, .btn-primary.focus {
