@@ -12,8 +12,6 @@
         <link rel="stylesheet" href="css/index.css">
         <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
         <title>Atividade</title>
-        <script src="js/jquery.js"></script>
-        <script src="bootstrap/js/bootstrap.js"></script>
     </head>
     <body>
         <div class="container">
@@ -32,7 +30,6 @@
                                 <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                                     <a class="dropdown-item" href="index.html">Cadastrar</a>
                                     <a class="dropdown-item" href="consultar.html">Consultar</a>
-                                    <a class="dropdown-item" href="alterar.html">Alterar</a>
                                 </div>
                             </li>
                         </ul>
@@ -57,12 +54,6 @@
                                 <div class="form-group">
                                     <label for="exampleFormControlSelect1">Origem:</label>
                                     <select class="form-control" id="txtOrigem">
-                                        <option>Celular</option>
-                                        <option>Fixo</option>
-                                        <option>Whatsapp</option>
-                                        <option>Facebook</option>
-                                        <option>Instagram</option>
-                                        <option>Google Meu Negocio</option>
                                     </select>
                                 </div>
                                 <div class="form-group">
@@ -73,12 +64,15 @@
                                     <label for="exampleFormControlTextarea1">Observação</label>
                                     <textarea class="form-control" id="txtObservacao" rows="3"></textarea>
                                 </div>
-                                <button type="submit" id="btnAlterar" class="btn btn-primary">Alterar</button>
+                                <button type="button" id="btnAlterar" class="btn btn-primary">Alterar</button>
                             </form>
                         </p>
                     </div>
                 </div>
             </div>
         </div>
+        <script type="text/javascript" src="js/jquery.js"></script>
+        <script type="text/javascript" src="bootstrap/js/bootstrap.js"></script>
+        <script type="text/javascript" src="js/alterar.js"></script>
     </body>
 </html>
