@@ -8,7 +8,7 @@
   },
   "installed_plugins": {
     "cordova-plugin-whitelist": {
-      "PACKAGE_NAME": "com.projeto.cu"
+      "PACKAGE_NAME": "com.projeto.app"
     }
   },
   "dependent_plugins": {},

@@ -1,6 +1,6 @@
 {
-  "name": "cu",
-  "short_name": "cu",
+  "name": "sqlite",
+  "short_name": "sqlite",
   "description": "Description of your app from template",
   "start_url": "index.html",
   "scope": "index.html",
